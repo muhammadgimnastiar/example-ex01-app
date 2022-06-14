@@ -1,2 +1,5 @@
 <p>friend works!</p>
-<app-friend-add></app-friend-add>
+<hr/>
+<app-friend-add (friendAdded)="onFriendAdded"></app-friend-add>
+<hr/>
+<app-friend-list [myFriends]="friendList"></app-friend-list>
